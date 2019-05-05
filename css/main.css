@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Ubuntu";
+}
+.navbar{
+	background:#1761a0;
+}
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.navbar-brand{
+	font-family: 'Ubuntu';
+}
+.navbar-brand:hover{
+	background: #f4f4f4;
+	color: #1761a0;
+
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: #1761a0;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+/*header style*/
+.header{
+	position: relative;
+	background-image: url('../images/AI-healthcare-benefits.jpg');
+
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+
+.footer{
+    position: absolute;
+	bottom: 0%;
+	right:0%;
+    margin: auto;
+	padding: 2em;
+	font-family: 'Ubuntu';
+
+}
+.description h1{
+	color:#1761a0 ;
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border:1px  solid #1761a0;
+	background:#1761a0;
+	color:#fff;
+}
