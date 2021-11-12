@@ -1,0 +1,125 @@
+.lunbo {
+  width: 100%;
+  height: 350px;
+  margin-top: 80px;
+  background-image: url(../../assets/hero-bg-pattern.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.lunbo .lunbohui {
+  color: #9b9b9b;
+  font-family: Gotham, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5625;
+}
+.lunbo .duanxian {
+  height: 1px;
+  width: 100px;
+  border: 2px solid #e7792b;
+  margin-bottom: 30px;
+}
+.alljoinMe {
+  position: relative;
+  left: 50%;
+  width: 1200px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+}
+.alljoinMe .joinPic {
+  position: relative;
+  width: 100%;
+  height: 557px;
+  padding: 0.9375rem;
+}
+.alljoinMe .joinPic .joinimg {
+  position: absolute;
+  top: -4%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+}
+.alljoinMe .joinPic .joinimg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1%;
+}
+.alljoinMe .joinJS {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 0.9375rem 0;
+}
+.alljoinMe .joinJS .joinzuoJS {
+  width: 50%;
+  height: 100%;
+}
+.alljoinMe .joinJS .joinzuoJS .joinNR {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.alljoinMe .joinJS .joinzuoJS .joinNR .telIntroduction {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 0 10px 0;
+}
+.alljoinMe .joinJS .joinzuoJS .joinNR .telxinxi {
+  display: block;
+  margin-bottom: 5px;
+  line-height: 1.5625;
+  color: #a9aaa9;
+}
+.alljoinMe .joinJS .joinzuoJS .zhiwei {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 0.9375rem;
+  margin-bottom: 2.5rem;
+}
+.alljoinMe .joinJS .joinzuoJS .zhiwei .telIntroduction {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 0 10px 0;
+}
+.alljoinMe .joinJS .joinzuoJS .zhiwei .zhiwuxinxi {
+  font-size: 14px;
+  font-weight: none;
+  color: #a9aaa9;
+}
+.alljoinMe .joinJS .joinyouJS {
+  width: 50%;
+  height: 100%;
+}
+.alljoinMe .joinJS .joinyouJS .Apply {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 55px;
+}
+.alljoinMe .joinJS .joinyouJS .Apply .Applybox {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.alljoinMe .joinJS .joinyouJS .Apply .Applybox .my-card {
+  background-color: #ffffff;
+}
+.alljoinMe .Apply {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+.alljoinMe .Apply .Applybox {
+  width: 470px;
+  margin-bottom: 20px;
+}
+.alljoinMe .Apply .Applybox .my-card {
+  background-color: #f2f2f2;
+}

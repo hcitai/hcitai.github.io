@@ -1,0 +1,189 @@
+.lunbox {
+  position: relative;
+  width: 100%;
+}
+.lunbox /deep/ .q-carousel__arrow .q-icon {
+  font-size: 4.375rem;
+}
+.lunbox /deep/ .q-carousel__arrow {
+  width: 100%;
+}
+.lunbox img {
+  width: 100%;
+  height: 100%;
+}
+ /deep/ .q-carousel__arrow .q-icon {
+  font-size: 70px;
+}
+.fuWu {
+  position: relative;
+  left: 50%;
+  width: 1200px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/手拿机器png.png);
+}
+.fuWu .fuWuTitle {
+  margin-top: 80px;
+  font-size: 1.875rem;
+}
+.fuWu .fuWuXiaozi {
+  color: #999999;
+  margin-top: 25px;
+  font-size: 14px;
+}
+.fuWu .fuWuContent {
+  display: flex;
+  flex-direction: row;
+}
+.fuWu .fuWuContent .Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 59px 35px;
+}
+.fuWu .fuWuContent .Content .Contenttit {
+  font-size: 18px;
+  color: #353535;
+  margin-bottom: 15px;
+}
+.fuWu .fuWuContent .Content .ContentNR {
+  color: #666666;
+  text-align: center;
+}
+.donghua {
+  position: relative;
+  left: 50%;
+  width: 100%;
+  height: 23.75rem;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+}
+.donghua .donghuabody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 61.25rem;
+  height: 100%;
+}
+.donghua .donghuabody .donghuaTitle {
+  margin-bottom: 30px;
+  font-size: 1.875rem;
+}
+.donghua .donghuabody .donghuaNR {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  height: 150px;
+}
+.donghua .donghuabody .donghuaNR .donghubox {
+  width: 10.3125rem;
+  height: 5.25rem;
+  margin: 0 0.625rem;
+  background: white;
+}
+.donghua .donghuabody .donghuaNR .donghubox img {
+  width: 100%;
+  height: 100%;
+}
+.product {
+  position: relative;
+  left: 50%;
+  width: 61.25rem;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.product .productTitle {
+  margin-top: 80px;
+  font-size: 1.875rem;
+}
+.product .productXiaozi {
+  color: #999999;
+  margin: 25px 0;
+  font-size: 14px;
+}
+.product .productContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.product .productContent .productbox {
+  border: 1px solid #e6e6e6;
+  width: 310px;
+  height: 250px;
+  background: pink;
+  margin: 0.625rem 0.3125rem;
+}
+.product .productContent .productbox img {
+  width: 100%;
+  height: 100%;
+}
+.introduction {
+  position: relative;
+  left: 50%;
+  width: 100%;
+  height: 37.1875rem;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+  margin-top: 100px;
+}
+.introduction .introductionbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 61.25rem;
+  height: 100%;
+}
+.introduction .introductionbody .introductionNR {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 70px 0 20px;
+}
+.introduction .introductionbody .introductionNR .introductionbox {
+  width: 100%;
+  height: 350px;
+}
+.introduction .introductionbody .introductionNR .introductionbox .introductionTit {
+  font-size: 2.125rem;
+  padding: 30px 0;
+}
+.introduction .introductionbody .introductionNR .introductionbox .introductionJS {
+  margin-bottom: 35px;
+  color: #666666;
+  font-size: 14px;
+}
+.introduction .introductionbody .introductionT {
+  width: 460px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.introduction .introductionbody .introductionT img {
+  width: 100%;
+  height: 350px;
+}
+a {
+  text-decoration: none;
+}

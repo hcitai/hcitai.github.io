@@ -1,0 +1,337 @@
+// 轮播图样式
+.lunbo{
+    width: 100%;
+    height: 350px;
+    // padding-top: 16px;
+    margin-top: 80px;
+    background-image: url(../../assets/hero-bg-pattern.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    .lunbohui{
+        color: #9b9b9b;
+        font-family: Gotham,sans-serif;
+        font-size: 1.125rem;
+        line-height: 1.5625;
+    }
+    .duanxian{
+        height: 1px;
+        width: 100px;
+        border: 2px solid #e7792b;
+        margin-bottom: 30px;
+    }
+}
+
+//关于我们
+.AboutUs{
+    position: relative;
+    left: 50%;
+    width: 1200px;
+    transform: translateX(-50%);
+    margin-bottom: 100px;
+    // height: 1200px;
+
+    //公司简介
+    .Introduction{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 150px;
+        .Introductionbody{
+            width: 730px;
+            height: 100%;
+            .Introductiontit{
+                font-family: BrownProBold;
+                font-size: 40px;
+                font-weight: 600;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.25;
+                letter-spacing: normal;
+                text-align: left;
+                color: #000;
+                margin-bottom: 10px;
+            }
+            .IntroductionNR{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: BrownPro;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.56;
+                color: #37383f;
+            }
+        }
+    }
+    // 政府支持
+    .CompanyProfile{
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        width: 100%;
+        padding-top: 150px; 
+        .allCompanyProfile{
+            width: 450px;
+            .CompanyProfiletit{
+                font-family: BrownProBold;
+                font-size: 36px;
+                font-weight: 600;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.25;
+                letter-spacing: normal;
+                text-align: left;
+                color: #000;
+                margin-bottom: 20px;
+            }
+            .CompanyProfileNR{
+                font-family: BrownPro;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.56;
+                color: #868686;
+                margin-bottom: 70px;
+            }
+            .NRbtn{
+                padding: 10px 40px;
+            }
+        }
+        .CompanyProfilePic{
+            width: 650px;
+            background-image: url('../../assets/Profile/公司简介政府支持.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+    
+    // 研发中心区域
+    .RandD{
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        width: 100%;
+        padding-top: 150px; 
+        .allRandD{
+            width: 450px;
+            height: 360px;
+            .RandDtit{
+                display: flex;
+                justify-content: flex-end;
+                font-family: BrownProBold;
+                font-size: 36px;
+                font-weight: 800;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.25;
+                letter-spacing: normal;
+                text-align: left;
+                color: #000;
+                margin-bottom: 20px;
+            }
+            .RandDNR{
+                display: flex;
+                flex-direction: column;
+                font-family: BrownPro;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.56;
+                color: #868686;
+                margin-bottom: 70px;
+                .RandDNRdate{
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+            .RandDbtn{
+                padding: 10px 40px;
+            }
+        }
+        .RandDPic{
+            width: 650px;
+            height: 350px;
+            // background-image: url('../../assets/Profile/全球分布研发中心.png');
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    // 产品矩阵ProductMatrix
+    .ProductMatrix{
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        width: 100%;
+        padding-top: 150px; 
+        .allProductMatrix{
+            width: 450px;
+            .ProductMatrixtit{
+                font-family: BrownProBold;
+                font-size: 36px;
+                font-weight: 800;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.25;
+                letter-spacing: normal;
+                text-align: left;
+                color: #000;
+                margin-bottom: 20px;
+            }
+            .ProductMatrixNR{
+                font-family: BrownPro;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.56;
+                color: #868686;
+                margin-bottom: 70px;
+            }
+            .ProductMatrixbtn{
+                padding: 10px 40px;
+            }
+        }
+        .ProductMatrixPic{
+            width: 650px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            // background-image: url('../../assets/Profile/公司简介政府支持.png');
+            // background-repeat: no-repeat;
+            // background-size: contain;
+        }
+    }
+
+    // 服务医院
+    .ServiceHospital{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        // align-items: center;
+        width: 100%;
+        padding-top: 150px; 
+        .allServiceHospital{
+            width: 730px;
+            height: 100%;
+            .ServiceHospitaltit{
+                font-family: BrownProBold;
+                font-size: 36px;
+                font-weight: 800;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.25;
+                letter-spacing: normal;
+                text-align: center;
+                color: #000;
+                margin-bottom: 30px;
+            }
+            .ServiceHospitalNR{
+                font-family: BrownPro;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.56;
+                color: #868686;
+                margin-bottom: 70px;
+            }
+        }
+        .ServiceHospitalPic{
+            width: 730px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            // background-image: url('../../assets/Profile/公司简介政府支持.png');
+            // background-repeat: no-repeat;
+            // background-size: contain;
+        }
+    }
+}
+
+
+
+
+// 内容区
+// .alljoinMe{
+//     position: relative;
+//     left: 50%;
+//     width: 1200px;
+//     transform: translateX(-50%);
+//     display: flex;
+//     flex-direction: column;
+//     // 联系我们标题
+//     .joinmeTit{
+//         height: 59px;
+//         width: 100%;
+//         margin: 50px 0 30px 0;
+//         text-align: center;
+//         font-size: 23px;
+//         font-weight: bold;
+//         border-bottom: 1px solid #e6e6e6;
+//     }
+//     .choice{
+//         margin-bottom: 30px;
+//         .profilePic{
+//             width: 100%;
+//             height: 650px;
+//             background-color: red;
+//             margin-bottom: 15px;
+//             img{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//         }
+//         .allprofileNR{
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: flex-start;
+//             .allprofiletit{
+//                 color: rgb(192, 0, 0);
+//                 font-size: 36px;
+//             }
+//             .profileJieShao{
+//                 font-size: 22px;
+//                 line-height: 2.5;
+//                 font-weight: 600;
+//                 color: #666666;
+//                 margin: 5px 0;
+//             }
+//         }
+//         //项目背景
+//         .allIdeaNR{
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: center;
+//             .ideaPIC{
+//                 width: 100%;
+//                 height: 200px;
+//                 margin: 20px 0;
+//                 img{
+//                     width: 100%;
+//                     height: 100%;
+//                 }
+//             }
+//         }
+//         .allProjectbgNR{
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: flex-start;
+//             .ProjectbgPIC{
+//                 width: 70%;
+//                 height: 400px;
+//                 margin: 20px 0;
+//                 img{
+//                     width: 100%;
+//                     height: 100%;
+//                 }
+//             }
+//             .Projectbgcontent{
+//                 margin: 20px 0;
+//             }
+//         }
+//     }
+// }   

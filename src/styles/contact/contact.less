@@ -1,0 +1,175 @@
+// 轮播图样式
+.lunbo{
+    width: 100%;
+    height: 350px;
+    // padding-top: 16px;
+    margin-top: 80px;
+    background-image: url(../../assets/hero-bg-pattern.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    .lunbohui{
+        color: #9b9b9b;
+        font-family: Gotham,sans-serif;
+        font-size: 1.125rem;
+        line-height: 1.5625;
+    }
+    .duanxian{
+        height: 1px;
+        width: 100px;
+        border: 2px solid #e7792b;
+        margin-bottom: 30px;
+    }
+}
+
+
+// 内容区
+.allTellme{
+    position: relative;
+    left: 50%;
+    width: 1200px;
+    // height: 2000px;
+    transform: translateX(-50%);
+    padding: 50px 0; 
+    margin-bottom: 100px;
+    .box2{
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        width: 100%;
+        padding: 50px 0; 
+        // border-bottom: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        .allbox2{
+            width: 450px;
+            height: 360px;
+            .box2tit{
+                font-family: BrownProBold;
+                font-size: 36px;
+                font-weight: 400;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.25;
+                letter-spacing: normal;
+                text-align: left;
+                color: #000;
+                margin-bottom: 20px;
+            }
+            .box2NR{
+                display: flex;
+                flex-direction: column;
+                font-family: BrownPro;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.56;
+                color: #37383f;
+                margin-bottom: 70px;
+            }
+            .NRbtn{
+                padding: 10px 40px;
+            }
+        }
+        .box2Pic{
+            width: 500px;
+            height: 360px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            // // background-image: url(../../assets/上海高容百度地图.png);
+            // background-image: url(../../assets/上海高容百度地图.png);
+            // //https://j.map.baidu.com/7b/W5nc
+            // background-repeat: no-repeat;
+            // background-size: contain;
+        }
+        .HZmap{
+            width: 500px;
+            height: 360px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            // background-image: url(../../assets/上海高容百度地图.png);
+            // background-image: url(../../assets/杭州微引百度地图.png);
+            // //https://j.map.baidu.com/7b/W5nc
+            // background-repeat: no-repeat;
+            // background-size: cover;
+        }
+    }
+    //代理联系样式 暂时取消
+    .Officelocation{
+        position: relative;
+        left: 50%;
+        // height: 2000px;
+        transform: translateX(-50%);
+        // height: 2000px;
+        width: 930px;
+        padding-bottom: 150px;
+        // background: #9b9b9b;
+        .OfficelocationTit{
+            font-family: BrownProBold;
+            font-size: 48px;
+            font-weight: 400;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.25;
+            letter-spacing: normal;
+            text-align: left;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        .Officelocationbox{
+            display: flex;
+            justify-content: space-between;
+            .Officelocationzuo{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                
+            }
+            .Officelocationyou{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+            }
+            .allOfficelocation{
+                padding: 60px 10px 0;
+                .allOfficelocationTit{
+                    font-size: 20px;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-stretch: normal;
+                    letter-spacing: normal;
+                    text-align: left;
+                    overflow: auto;
+                    word-wrap: break-word;
+                    margin: 10px 0;
+                }
+                .OfficelocationNR{
+                    display: flex;
+                    flex-direction: column;
+                    font-family: BrownPro;
+                    line-height: 1.63;
+                    color: #37383f;
+                    margin-bottom: 0;
+                }
+                .OfficelocationPhone{
+                    .phone{
+                        font-family: BrownPro;
+                        line-height: 1.63;
+                        color: #37383f;
+                    }
+                    .blues{
+                        color: #0f25d1
+                    }
+                }
+            }
+        }
+    }
+}
+
+a{
+    text-decoration: none
+}
